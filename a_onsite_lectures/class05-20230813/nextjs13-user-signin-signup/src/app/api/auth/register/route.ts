@@ -5,7 +5,7 @@ import {
   RegisterUserInput,
   RegisterUserSchema,
 } from "@/lib/validations/user.schema";
-import { getErrorResponse } from "@/lib/helper";
+import { getErrorResponse } from "@/lib/helpers";
 import { jwt_users } from "@/lib/db/schema/script";
 import { NextRequest, NextResponse } from "next/server";
 
