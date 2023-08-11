@@ -12,7 +12,6 @@ export async function POST(req: NextRequest) {
   try {
     const body = (await req.json()) as LoginUserInput;
     const data = LoginUserSchema.parse(body);
-    console.log("data ===> ", data);
     const user = await db
       .select({
         user_id: jwt_users.user_id,
@@ -20,7 +19,6 @@ export async function POST(req: NextRequest) {
       })
       .from(jwt_users)
       .where(eq(jwt_users.email, data.email));
-    console.log("user ===> ", user);
     if (!user[0] || !(await compare(data.password, user[0].password))) {
       return getErrorResponse(401, "Invalid email or password");
     }
