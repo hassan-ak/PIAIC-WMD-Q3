@@ -26,6 +26,7 @@
     "eslint-config-next": "13.4.13",
     "jose": "^4.14.4",
     "next": "13.4.13",
+    "node-jose": "^2.2.0",
     "pg": "^8.11.2",
     "postcss": "8.4.27",
     "postgres": "^3.3.5",
@@ -37,6 +38,7 @@
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
+    "@types/node-jose": "^1.1.10",
     "drizzle-kit": "^0.19.12"
   }
 }
