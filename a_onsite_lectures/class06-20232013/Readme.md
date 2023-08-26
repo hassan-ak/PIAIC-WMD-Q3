@@ -1,7 +1,6 @@
 # Next.js Commerce 2.0
 
 - [Next.js Commerce](https://docs.google.com/presentation/d/1cy0EfXtreXzfbRGnVlI0eRDJ2-bOggGAEG4nfNcVJNE/edit?usp=sharing)
-- [Next.js Commerce Demo]()
 
 ### References.
 
@@ -9,7 +8,7 @@
 - [Template Repo](https://github.com/vercel/commerce)
 - [Vercel and Shopify Integration](https://vercel.com/docs/integrations/shopify)
 - [Next.js Commerce Template](https://vercel.com/templates/next.js/nextjs-commerce)
-- [Shopify Headless theme](https://vercel.com/templates/nextjs/nextjs-commerce)
+- [Shopify Headless theme](https://github.com/instantcommerce/shopify-headless-theme)
 
 ### Reading Material
 
