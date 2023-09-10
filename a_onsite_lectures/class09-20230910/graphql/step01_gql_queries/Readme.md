@@ -4,7 +4,7 @@
 
 **Operation name**
 
-```
+```gql
 query GetCountries {
 }
 ```
