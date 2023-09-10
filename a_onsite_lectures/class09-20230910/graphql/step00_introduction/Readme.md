@@ -125,7 +125,7 @@ REST APIs typically utilize multiple endpoints to handle various resource operat
     </tbody>
 </table>
 
-**4. Over fetching**
+**4. Under fetching**
 
 Rest API's may result in getting back more data than we need
 
