@@ -1,5 +1,7 @@
 # Vercel shopify e-commerce Integration guide
 
+- [Vercel and Shopify Integration](https://vercel.com/docs/integrations/shopify)
+
 ## 1. Create shopify partners account
 
 1. SignUp at [Shopify Partners](https://www.shopify.com/shopifypartnersvap?gclid=CjwKCAjwjaWoBhAmEiwAXz8DBQ0UJ8T6ens8l2IY9tTq5rozv4gJkDtWkfLdRamd8sOyljgOgl2tXxoCGfMQAvD_BwE)
