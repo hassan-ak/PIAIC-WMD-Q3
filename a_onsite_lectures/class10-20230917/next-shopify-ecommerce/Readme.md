@@ -163,7 +163,7 @@
 
 1. From settings navigate to notification and scroll to the bottom of the page and select create webhooks. `settings` --> `notifications` --> `create webhooks`
 
-2. Fill out the form as follows. Don't forget to use your own values
+2. Fill out the form as follows. Don't forget to use your own values. URL used here is the url obtained after deployment in `step 06`
 
    ![hooks-01](./asserts/snaps/documentation/hooks/hooks1.png)
 
@@ -223,7 +223,7 @@
 | 4       | [Shipping & Return Policy](https://demo.vercel.store/shipping-return-policy) |
 | 5       | [Terms & Conditions](https://demo.vercel.store/frequently-asked-questions)   |
 
-## 9. Add Navigation
+## 10. Add Navigation
 
 1. From `online store` select `navigation` and update `Footer menu` and `Main menu` one by one by removing added items in them.,
 
@@ -255,7 +255,7 @@
 | 3       | Female    | Female    |
 | 4       | Kids      | Kids      |
 
-## 10. Check Deployment
+## 11. Check Deployment
 
 1. If every step is followed correctly your deployed site will look like this https://nextjs-commerce-five-jet.vercel.app/
 
@@ -268,15 +268,33 @@
 3. On the left side bar select `setup and installation` and download ngrok then install it.
 4. configure using `ngrok config add-authtoken <token>`
 
-## 12. Run locally
+## 12. Run locally on Linux/MAC
 
 1. Clone the repository from your github
-2. `vercel link` to link the repository with the deployed project
-3. `vercel env pull` to pull env variables from the vercel dashboard
-4. Update `package.json` and change next version from `13.4.13-canary.15` to `13.5.1` (for windows users if it gives some error use `13.4.6`)
-5. `pnpm install` to install dependencies. If you don't have `pnpm` installed, install using `npm i -g pnpm`
-6. `pnpm dev` to run locally
-7. `ngrok http 3000` in a new tab to test webhooks locally. This will give a Forwarding url. Add this url to webhook to test them locally. The same we have done in `section 7`
-8. Play with collections or products to test if webhooks work locally.
-9. Make changes to the home page
-10. Deploy locally or from github
+2. Open the repository in VS-code
+3. `vercel link` to link the repository with the deployed project
+4. `vercel env pull` to pull env variables from the vercel dashboard
+5. Update `package.json` and change next version from `13.4.13-canary.15` to `13.5.1`
+6. `pnpm install` to install dependencies. If you don't have `pnpm` installed, install using `npm i -g pnpm`
+7. `pnpm dev` to run locally
+8. `ngrok http 3000` in a new tab to test webhooks locally. This will give a Forwarding url. Add this url to webhook to test them locally. The same we have done in `section 7`
+9. Play with collections or products to test if webhooks work locally.
+10. Make changes to the home page
+11. Deploy locally or from github
+
+
+## 12. Run locally on Windows
+
+1. Clone the repository from your github
+2. Open VS-code in administration mode. To do so click start and search vscode, on vscode right click and run as administrator
+3. Use vscode terminal to run commands
+4. `vercel link` to link the repository with the deployed project
+5. `vercel env pull` to pull env variables from the vercel dashboard
+6. Update `package.json` and change next version from `13.4.13-canary.15` to `13.4.6`
+7. `pnpm install` to install dependencies. If you don't have `pnpm` installed, install using `npm i -g pnpm`
+8. `pnpm dev` to run locally
+9. `ngrok http 3000` in a new tab to test webhooks locally. This will give a Forwarding url. Add this url to webhook to test them locally. The same we have done in `section 7`
+10. Play with collections or products to test if webhooks work locally.
+11. Make changes to the home page
+12. Before deploying to vercel need to update `package.json` and change next version from `13.4.6` to `13.4.13-canary.15`
+12. Deploy locally or from github
