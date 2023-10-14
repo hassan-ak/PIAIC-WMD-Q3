@@ -1,5 +1,5 @@
 {
-  "name": "step02_gql_queries_nextjs",
+  "name": "step02_gql_queries_nextjs_client_component",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@apollo/client": "^3.8.3",
-    "@types/node": "20.6.0",
+    "@types/node": "20.6.2",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
